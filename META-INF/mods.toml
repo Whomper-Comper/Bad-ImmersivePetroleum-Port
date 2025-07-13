@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+issueTrackerURL="https://github.com/TwistedGate/ImmersivePetroleum/issues"
+license="All rights reserved"
+
+[[mods]] #mandatory
+	modId="immersivepetroleum"
+	version="${file.jarVersion}"
+	displayName="Immersive Petroleum"
+	displayURL="https://minecraft.curseforge.com/projects/immersive-petroleum"
+	authors="Flaxbeard and Maintained by TwistedGate"
+	description="Adds oil and oil processing features to Immersive Engineering."
+	logoFile="logo.png"
+	#updateJSONURL=""
+	#credits=""
+
+[[dependencies.immersivepetroleum]]
+	modId="immersiveengineering"
+	mandatory=true
+	versionRange="[1.19.2-9.2.2-165,)"
+	ordering="BEFORE"
+	side="BOTH"
+
+[[dependencies.immersivepetroleum]]
+	modId="forge"
+	mandatory=true
+	versionRange="[43.2.0,)"
+	ordering="NONE"
+	side="BOTH"
+
+[[dependencies.immersivepetroleum]]
+	modId="minecraft"
+	mandatory=true
+	versionRange="[1.19.2]"
+	ordering="NONE"
+	side="BOTH"

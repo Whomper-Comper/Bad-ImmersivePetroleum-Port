@@ -1,0 +1,5 @@
+{
+  "parent": "forge:item/bucket",
+  "fluid": "immersivepetroleum:ethylene",
+  "loader": "forge:fluid_container"
+}

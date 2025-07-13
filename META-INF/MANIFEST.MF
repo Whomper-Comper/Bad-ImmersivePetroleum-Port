@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: immersivepetroleum
+Specification-Vendor: flaxbeard
+Specification-Version: 1
+Implementation-Title: ImmersivePetroleum
+Implementation-Version: 4.2.0-29
+Implementation-Vendor: flaxbeard
+Implementation-Timestamp: 2024-05-09T04:16:09+0200
+
